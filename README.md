@@ -19,7 +19,7 @@ A modern, responsive portfolio website showcasing my experience as a Software En
 - **Language:** TypeScript 5.8.2
 - **Styling:** Tailwind CSS (CDN)
 - **Build Tool:** Vite 6.2.0
-- **Deployment:** 
+- **Deployment:** Vercel
 
 ## 📂 Project Structure
 ```
@@ -94,7 +94,7 @@ The project uses Tailwind CSS. Main colors are defined in `index.html`:
 
 ## 🌐 Live Demo
 
-Visit the live portfolio: 
+Visit the live portfolio: https://carlos-marpaung-portfolio.vercel.app/
 
 ## 📄 License
 

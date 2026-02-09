@@ -8,8 +8,8 @@ export const PERSONAL_INFO = {
   email: "calmrp1412@gmail.com",
   linkedin: "linkedin.com/in/carlos-michael-marpaung-836392267",
   github: "github.com/carlosmarpaung08",
-  cvLink: "pdf/CV-CarlosMichaelMarpaung.pdf",
-  profileImg: "images/profil-image.jpeg"
+  cvLink: "/pdf/CV-CarlosMichaelMarpaung.pdf",
+  profileImg: "/images/profil-image.jpeg"
 };
 
 export const EXPERIENCES: Experience[] = [
@@ -17,7 +17,7 @@ export const EXPERIENCES: Experience[] = [
     company: "PT Bank Oke Indonesia Tbk (OK Bank)",
     role: "SQL Developer",
     period: "August 2025 - Present",
-    logoUrl: "images/ok-bank.png",
+    logoUrl: "/images/ok-bank.png",
     achievements: [
       "Developed and maintained complex SQL Server stored procedures using CTE, window functions, and multi-table joins to generate regulatory and internal reports including Antasena, SLIK, LPS, and Basel III.",
       "Built and enhanced ETL pipelines for daily and monthly reporting processes, improving data processing efficiency and reducing manual intervention.",
@@ -30,7 +30,7 @@ export const EXPERIENCES: Experience[] = [
     company: "PT Dimensi Kreasi Nusantara",
     role: "Software Engineer (Internship)",
     period: "Aug 2024 - Dec 2024",
-    logoUrl: "images/dimensi-kreasi-nusantara.png",
+    logoUrl: "/images/dimensi-kreasi-nusantara.png",
     achievements: [
       "Developed core features for the Dots Mobile Application, a mobile financial platform similar to mobile banking, using React Native.",
       "Built backend services with Django REST Framework and PostgreSQL to handle user authentication, savings deposits, withdrawals,and loan management workflows.",
@@ -113,24 +113,24 @@ export const CERTIFICATIONS: Certification[] = [
     name: "Google Advanced Data Analytics",
     issuer: "Coursera",
     date: "Mar 2025",
-    certificateUrl: "pdf/Coursera - Google Advanced Data Analytics.pdf"
+    certificateUrl: "/pdf/Coursera - Google Advanced Data Analytics.pdf"
   },
   {
     name: "elevAIte with Dicoding Program",
     issuer: "Microsoft",
     date: "Mar 2025",
-    certificateUrl: "pdf/Microsoft Learn - elevAIte with Dicoding Program.pdf"
+    certificateUrl: "/pdf/Microsoft Learn - elevAIte with Dicoding Program.pdf"
   },
   {
     name: "Junior Web Developer",
     issuer: "Digital Talent Scholarship",
     date: "Aug 2023",
-    certificateUrl: "pdf/Digital Talent Scholarship (VSGA) - Junior Web Developer.pdf"
+    certificateUrl: "/pdf/Digital Talent Scholarship (VSGA) - Junior Web Developer.pdf"
   },
   {
     name: "Career Preparation of Youth Digital Acceleration Program",
     issuer: "YCAB Foundation",
     date: "Jul 2023",
-    certificateUrl: "pdf/YCAB Foundation - Career Preparation YCAB YDA.pdf"
+    certificateUrl: "/pdf/YCAB Foundation - Career Preparation YCAB YDA.pdf"
   }
 ];
