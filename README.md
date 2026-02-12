@@ -17,12 +17,11 @@ A modern, responsive portfolio website showcasing my experience as a Software En
 
 - **Frontend Framework:** React 19.2.4
 - **Language:** TypeScript 5.8.2
-- **Styling:** Tailwind CSS (CDN)
+- **Styling:** Tailwind CSS
 - **Build Tool:** Vite 6.2.0
 - **Deployment:** Vercel
 
 ## 📂 Project Structure
-```
 carlos-marpaung-portfolio/
 ├── public/
 │   ├── images/              # Profile and company logos
@@ -31,9 +30,11 @@ carlos-marpaung-portfolio/
 │   ├── App.tsx              # Main application component
 │   ├── data.ts              # Portfolio data (experiences, projects, etc.)
 │   ├── types.ts             # TypeScript interfaces
-│   ├── index.tsx            # Application entry point
-│   └── index.css            # Global styles
+│   └── index.tsx            # Application entry point
+├── index.css                # Global styles (Tailwind directives)
 ├── index.html
+├── tailwind.config.js       # Tailwind CSS configuration
+├── postcss.config.js        # PostCSS configuration
 ├── vite.config.ts
 ├── tsconfig.json
 └── package.json
@@ -87,7 +88,7 @@ Edit `src/data.ts` to update:
 
 ### Modify Styling
 
-The project uses Tailwind CSS. Main colors are defined in `index.html`:
+The project uses Tailwind CSS. Main colors and theme configuration are defined in `tailwind.config.js`:
 - Primary: Navy Blue (#002B5B)
 - Dark Mode: Slate colors
 - Accents: Blue gradients
