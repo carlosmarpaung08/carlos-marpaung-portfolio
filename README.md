@@ -22,6 +22,7 @@ A modern, responsive portfolio website showcasing my experience as a Software En
 - **Deployment:** Vercel
 
 ## 📂 Project Structure
+```
 carlos-marpaung-portfolio/
 ├── public/
 │   ├── images/              # Profile and company logos
