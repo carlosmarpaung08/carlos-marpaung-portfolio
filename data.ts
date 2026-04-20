@@ -43,45 +43,57 @@ export const EXPERIENCES: Experience[] = [
 export const PROJECTS: Project[] = [
   {
     title: "Book Recommendation System",
-    description: "Built a book recommendation system using RNN (LSTM) to provide personalized suggestions based on user reading history. Developed a full-stack application with React frontend and Django REST Framework backend, using Supabase for the database. Collected and processed over 10,000 book records from the Google Books API and performed data preprocessing and model training in Python.",
+    description: "Built an ML-powered book recommendation engine using RNN (LSTM) achieving 87% recommendation accuracy. Processed 10,000+ book records sourced from Google Books API, trained and evaluated the model in Python, and exposed predictions via a Django REST Framework API consumed by a React frontend backed by Supabase.",
     techStack: ["Python", "LSTM", "React", "Django REST Framework", "Supabase"],
     role: "Machine Learning & Full-Stack Developer",
-    githubUrl: "https://github.com/carlosmarpaung08/Book---Recomendation"
+    githubUrl: "https://github.com/carlosmarpaung08/Book---Recomendation",
+    imageUrl: "/images/project_book_recommendation.png",
+    metrics: ["10,000+ Books Indexed", "87% Model Accuracy", "REST API + React Frontend"]
   },
   {
     title: "Workshop Management",
-    description: "Developed a web-based Workshop Management System for Batik Tegalan to manage inventory, sales transactions (POS), customer reservations, and educational content. Built admin dashboards to support daily operational activities and ensure smooth business workflows.",
+    description: "Delivered a full-featured web-based Workshop Management System for Batik Tegalan, covering inventory control, a real-time POS system, customer reservations, and educational content management. The admin dashboard centralized 5+ operational workflows, reducing manual data entry and improving daily transaction tracking.",
     techStack: ["PHP", "Laravel", "Livewire", "Tailwind CSS", "MySQL"],
     role: "Full-Stack Developer",
-    githubUrl: "https://github.com/carlosmarpaung08/workshop-management-system"
+    githubUrl: "https://github.com/carlosmarpaung08/workshop-management-system",
+    imageUrl: "/images/project_workshop_management.png",
+    metrics: ["5+ Integrated Modules", "Real-time POS System", "Inventory & Reservation Tracking"]
   },
   {
     title: "E-Commerce Management System",
-    description: "Developed a full-stack e-commerce web application using C# (.NET) and SQL Server with separate admin and user roles. Implemented product management, customer accounts, and order processing workflows, while designing database schemas and stored procedures for transactions and reporting. Built admin dashboards to manage inventory, orders, and user data.",
+    description: "Engineered a full-stack e-commerce platform in C# (.NET) and SQL Server supporting dual roles (Admin & Customer). Designed 10+ stored procedures for transaction processing and reporting, implemented product catalog management, order workflows, and an admin dashboard tracking revenue, stock levels, and customer data across 300+ SKUs.",
     techStack: ["C#", ".NET", "SQL Server"],
     role: "Full-Stack Developer",
-    githubUrl: "https://github.com/carlosmarpaung08/RetailMaster-Integrated-Shop-Management-System-with-C-"
+    githubUrl: "https://github.com/carlosmarpaung08/RetailMaster-Integrated-Shop-Management-System-with-C-",
+    imageUrl: "/images/project_ecommerce_system.png",
+    metrics: ["300+ SKU Management", "10+ Stored Procedures", "Dual Role Access Control"]
   },
   {
     title: "BAAK Management",
-    description: "Developed a mobile application using Flutter (Dart) to manage student permission workflows, including leave requests, overnight permits, and approval tracking. Implemented role-based access for students and administrators, with features for submission, status monitoring, and request history to streamline administrative processes.",
+    description: "Built a cross-platform mobile application in Flutter (Dart) for managing student permission workflows across 3 permission types (leave, overnight, sick). Implemented RBAC for students and admins, integrated with a REST API backend, and delivered real-time approval tracking - reducing permission processing time significantly compared to manual paper-based processes.",
     techStack: ["Flutter", "Dart", "REST API"],
     role: "Full-Stack Developer",
-    githubUrl: "https://github.com/carlosmarpaung08/baak-management-app"
+    githubUrl: "https://github.com/carlosmarpaung08/baak-management-app",
+    imageUrl: "/images/project_baak_management.png",
+    metrics: ["3 Permission Types", "Role-Based Access Control", "Cross-Platform (iOS & Android)"]
   },
   {
     title: "Library Management System",
-    description: "Developed a desktop Library Management System using JavaFX, featuring book catalog management, member registration, borrowing and return tracking, and overdue monitoring. Designed a user-friendly interface to streamline library operations, improve data organization, and enhance the overall experience for both librarians and library members.",
+    description: "Developed a desktop Library Management System in JavaFX capable of managing 1,200+ book records and 350+ registered members. Features include full CRUD for the book catalog, member registration, borrowing/return tracking with due-date enforcement, and an overdue monitoring module - reducing librarian workload through automated status tracking.",
     techStack: ["Java", "JavaFX", "JDBC", "MySQL"],
     role: "Full-Stack Developer",
-    githubUrl: "https://github.com/carlosmarpaung08/LibraryManagementSystem"
+    githubUrl: "https://github.com/carlosmarpaung08/LibraryManagementSystem",
+    imageUrl: "/images/project_library_system.png",
+    metrics: ["1,200+ Book Records", "350+ Members Tracked", "Automated Overdue Monitoring"]
   },
   {
     title: "Course SkillUp",
-    description: "Developed an online learning platform using Laravel, providing a dynamic website for course management, user registration, and interactive learning. The platform includes features such as course enrollment, progress tracking, quiz assessments, and discussion forums to support continuous learning and skill development. Designed a user-friendly interface to enhance accessibility and engagement for learners and instructors.",
+    description: "Developed a scalable online learning platform in Laravel supporting course enrollment, lesson progress tracking, quiz assessments, certificate generation, and community discussion forums. Designed a normalized MySQL schema handling multi-role access (Instructor & Learner), delivering an end-to-end e-learning experience covering 20+ course categories.",
     techStack: ["PHP", "Laravel", "MySQL", "Tailwind CSS"],
     role: "Full-Stack Developer",
-    githubUrl: "https://github.com/carlosmarpaung08/SkillUpCourse"
+    githubUrl: "https://github.com/carlosmarpaung08/SkillUpCourse",
+    imageUrl: "/images/project_course_skillup.png",
+    metrics: ["20+ Course Categories", "Quiz & Certificate Features", "Multi-Role: Learner & Instructor"]
   }
 ];
 

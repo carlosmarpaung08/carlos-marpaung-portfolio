@@ -13,6 +13,8 @@ export interface Project {
   techStack: string[];
   role: string;
   githubUrl?: string;
+  imageUrl?: string;
+  metrics?: string[];
 }
 
 export interface SkillGroup {
