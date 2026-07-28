@@ -19,11 +19,11 @@ export const EXPERIENCES: Experience[] = [
     period: "August 2025 - Present",
     logoUrl: "/images/ok-bank.png",
     achievements: [
-      "Developed and maintained complex SQL Server stored procedures using CTE, window functions, and multi-table joins to generate regulatory and internal reports including Antasena, SLIK, LPS, and Basel III.",
-      "Built and enhanced ETL pipelines for daily and monthly reporting processes, improving data processing efficiency and reducing manual intervention.",
-      "Analyzed and validated large banking datasets to ensure data accuracy and consistency in compliance with OJK and BI regulations.",
-      "Troubleshot query performance issues and data discrepancies across reporting tables, improving overall report reliability.",
-      "Documented stored procedure logic, table mappings, and reporting flows to support system maintainability and knowledge sharingwithin the team."
+      "Developed and maintained 50+ SQL Server stored procedures using CTEs, window functions, and complex multi-table joins to support regulatory reporting for OJK Antasena, SLIK, LPS Single Customer View (SCV), and Basel III liquidity reports (LCR & NSFR).",
+      "Built and enhanced SQL Server-based ETL pipelines supporting daily and monthly reporting processes, reducing manual intervention and improving data processing efficiency for enterprise banking reporting.",
+      "Validated millions of banking records across complex reporting datasets, ensuring data accuracy, consistency, and compliance with OJK, Bank Indonesia (BI), and LPS reporting requirements.",
+      "Optimized complex SQL queries and resolved production data discrepancies through query refactoring, execution plan analysis, and database tuning, improving reporting performance by approximately 30–40%.",
+      "Provided production support for regulatory reporting systems by troubleshooting data issues, maintaining database objects, documenting stored procedure logic and reporting workflows, and collaborating with cross-functional teams to ensure timely and reliable report submissions."
     ]
   },
   {
@@ -32,10 +32,11 @@ export const EXPERIENCES: Experience[] = [
     period: "Aug 2024 - Dec 2024",
     logoUrl: "/images/dimensi-kreasi-nusantara.png",
     achievements: [
-      "Developed core features for the Dots Mobile Application, a mobile financial platform similar to mobile banking, using React Native.",
-      "Built backend services with Django REST Framework and PostgreSQL to handle user authentication, savings deposits, withdrawals,and loan management workflows.",
-      "Implemented RESTful APIs for transaction processing, loan due-date tracking, and user account management with proper validation and error handling.",
-      "Debugged and resolved frontend–backend integration issues to ensure reliable financial transaction flows and application stability."
+      "Developed and delivered core features for the Dots Mobile Application, a digital banking-style financial platform, using React Native, including user authentication, savings, deposits, withdrawals, and loan management.",
+      "Built and maintained 20+ RESTful API endpoints using Django REST Framework and PostgreSQL to support secure financial transactions, business workflows, and user account management.",
+      "Designed and implemented backend modules for transaction processing, loan due-date tracking, account management, and financial operations with robust validation, authentication, and error handling.",
+      "Debugged and resolved frontend–backend integration issues, ensuring reliable end-to-end financial transaction processing and improving overall application stability.",
+      "Collaborated with cross-functional teams using Git-based workflows to develop, test, and deliver scalable features in an Agile development environment."
     ]
   },
 ];
