@@ -188,7 +188,7 @@ const Hero: React.FC = () => (
 const ExperienceItem: React.FC<{ exp: typeof EXPERIENCES[0] }> = ({ exp }) => (
   <div className="relative pl-12 sm:pl-16 md:pl-24 ml-4 border-l border-slate-200 dark:border-slate-800 last:border-l-0 pb-16 last:pb-0">
   <div className="absolute -left-6 sm:-left-8 md:-left-10 top-0 w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow-sm flex items-center justify-center p-2 sm:p-2.5 transition-transform hover:scale-110">
-    <img src={exp.logoUrl} alt={exp.company} className="w-full h-full object-contain rounded-lg grayscale hover:grayscale-0 transition-all" />
+    <img src={exp.logoUrl} alt={exp.company} className="w-full h-full object-contain rounded-lg transition-all" />
   </div>
   <div className="flex flex-col md:flex-row md:justify-between items-start md:items-center mb-6">
       <div>
@@ -427,19 +427,19 @@ const App: React.FC = () => {
             <div className="grid lg:grid-cols-5 gap-16 items-start">
               <div className="lg:col-span-3 space-y-6 text-slate-600 dark:text-slate-300 leading-relaxed text-lg">
                 <p>
-                  As a software engineer with a strong focus on <strong className="text-navy dark:text-blue-400">Backend Development</strong> and <strong className="text-navy dark:text-blue-400">Full-Stack Systems</strong>, I build reliable and maintainable applications that solve real-world problems through clean code and practical engineering.
+                  I am a Software Engineer experienced in full-stack web development, API architecture, and database engineering. Currently at <strong className="text-navy dark:text-blue-400">Podomoro University</strong>, I build the university's academic LMS Portal end-to-end—contributing across frontend workflows, backend services in <strong className="text-navy dark:text-blue-400">PHP (Laravel)</strong>, relational database design, and QA testing.
                 </p>
                 <p>
-                  I enjoy working on backend logic and database-driven systems, optimizing queries, and designing application workflows that prioritize performance, accuracy, and long-term maintainability.
+                  With a background spanning digital fintech development, enterprise banking database engineering, and academic systems, I focus on delivering reliable, data-driven software from relational schema design and query optimization up to user-facing interfaces.
                 </p>
                 <div className="grid grid-cols-2 gap-8 pt-6">
                   <div className="p-6 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm">
-                     <div className="text-3xl font-bold text-navy dark:text-blue-400 mb-1">Junior</div>
-                     <div className="text-xs font-bold uppercase tracking-widest text-slate-400">Level</div>
+                     <div className="text-3xl font-bold text-navy dark:text-blue-400 mb-1">Full-Stack</div>
+                     <div className="text-xs font-bold uppercase tracking-widest text-slate-400">Capability</div>
                   </div>
                   <div className="p-6 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm">
-                     <div className="text-3xl font-bold text-navy dark:text-blue-400 mb-1">Backend</div>
-                     <div className="text-xs font-bold uppercase tracking-widest text-slate-400">Focus</div>
+                     <div className="text-3xl font-bold text-navy dark:text-blue-400 mb-1">SQL & Data</div>
+                     <div className="text-xs font-bold uppercase tracking-widest text-slate-400">Specialization</div>
                   </div>
                 </div>
               </div>
@@ -448,7 +448,7 @@ const App: React.FC = () => {
                   <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -translate-y-1/2 translate-x-1/2 group-hover:scale-150 transition-transform duration-700"></div>
                   <h4 className="text-xl font-bold mb-6 relative z-10">Professional Focus</h4>
                   <div className="space-y-4 relative z-10">
-                    {['Backend Development', 'SQL & Database Systems', 'Full-Stack Web Applications', 'RESTful API Development'].map((focus, i) => (
+                    {['Full-Stack Development', 'SQL & Database Systems', 'RESTful API Architecture', 'Manual QA & Testing'].map((focus, i) => (
                       <div key={i} className="flex items-center gap-3">
                         <svg className="w-5 h-5 text-blue-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />

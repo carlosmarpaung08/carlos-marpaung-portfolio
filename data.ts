@@ -4,7 +4,7 @@ import { Experience, Project, SkillGroup, Education, Certification } from './typ
 export const PERSONAL_INFO = {
   fullName: "Carlos Michael Marpaung",
   role: "Software Engineer",
-  summary: "Software Engineer with experience in backend development, SQL-based data processing, and full-stack application development. Currently working as an SQL Developer in the banking sector, handling regulatory reports such as Antasena, SLIK, LPS, and Basel III. Strong in building data-intensive systems using React, Django, Laravel, and relational databases.",
+  summary: "Software Engineer with full-stack and database engineering experience, currently building academic LMS platforms at Podomoro University. Experienced in delivering end-to-end features across Laravel, Django, React, and enterprise SQL Server.",
   email: "calmrp1412@gmail.com",
   linkedin: "linkedin.com/in/carlos-michael-marpaung-836392267",
   github: "github.com/carlosmarpaung08",
@@ -14,9 +14,20 @@ export const PERSONAL_INFO = {
 
 export const EXPERIENCES: Experience[] = [
   {
+    company: "Podomoro University",
+    role: "IT Development Staff",
+    period: "Aug 2026 - Present",
+    logoUrl: "/images/podomoro-university.png",
+    achievements: [
+      "Develop the university's academic LMS Portal end-to-end, covering frontend, backend, and database using PHP (Laravel), supporting core operations such as course scheduling, materials, tasks, and scoring.",
+      "Design and maintain relational database schemas and queries for the LMS Portal in coordination with academic and administrative stakeholders.",
+      "Author manual test case documentation for LMS modules (e.g., Schedule Exchange, Manage Material Course, Manage Task, Manage Score) as part of the team's QA process before release."
+    ]
+  },
+  {
     company: "PT Bank Oke Indonesia Tbk (OK Bank)",
     role: "SQL Developer",
-    period: "August 2025 - Present",
+    period: "Aug 2025 - Jul 2026",
     logoUrl: "/images/ok-bank.png",
     achievements: [
       "Developed and maintained 50+ SQL Server stored procedures using CTEs, window functions, and complex multi-table joins to support regulatory reporting for OJK Antasena, SLIK, LPS Single Customer View (SCV), and Basel III liquidity reports (LCR & NSFR).",
